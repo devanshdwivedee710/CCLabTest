@@ -66,7 +66,7 @@ public class Search extends HttpServlet {
                         
                         out.print("<td>"+rsmd.getColumnName(5)+"</td>");
 
-                        out.print("<td>"+rs.getString(5)+"</td></tr>");
+                        out.print("<td>"+rs.getString(5)+"</td></tr>"); 
                         
                         out.print("<td>"+rsmd.getColumnName(6)+"</td>");
 
@@ -74,6 +74,8 @@ public class Search extends HttpServlet {
                         out.print("<td> </td>");
                      }
                      	
+                     
+                     
                      while(rs1.next())
                      {
 
